@@ -1,8 +1,8 @@
 html {
     text-align: center;
 	--u: 2vmin; /* change size */
-	--c1: #673ab7;
-  --c2: #5c379f;
+	--c1: #0067ac;
+  --c2: #0580a5;
 	--s1: #0002;
   --gp: 50%/calc(var(--u) * 10) calc(var(--u) * 10);
 	height: 100vh;
@@ -35,6 +35,7 @@ html {
     width: 150px;
     border-radius: 50%;
     border: solid 1px #fff;
+    box-shadow: #011c29 1px 3px 20px;
 }
 
 .button {
