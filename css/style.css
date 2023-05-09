@@ -48,7 +48,7 @@ html {
     box-shadow: #011c29 2px 1px 0;
     transition: all 1s;
     display: inline-block;
-    width: 300px;
+    width: 200px;
 }
 
 .button:hover {
