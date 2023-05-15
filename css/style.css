@@ -57,6 +57,7 @@ html {
   .janela-barra h3 {
     font-family: 'Courier New', Courier, monospace;
     margin-top: -3px;
+    position: relative;
   }
   
   .janela-botao {
