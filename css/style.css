@@ -1,111 +1,151 @@
 html {
-    text-align: center;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
-    opacity: 1
+  text-align: center;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  opacity: 1;
+}
+
+.header-content {
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px;
+  border-bottom: dotted 2px #fff;
 }
 
 .title {
-    font-family: 'Courier New', Courier, monospace;
-    color: white;
-    margin-bottom: 0;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  margin-bottom: 0;
 }
 
 .subtitle {
-    font-family: 'Courier New', Courier, monospace;
-    color: white;
-    margin-top: 0;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  margin-top: 0;
+}
+
+.profile {
+  width: 150px;
+  border-radius: 50%;
+  border: solid 1px #fff;
+  box-shadow: #011c29 1px 3px 20px;
 }
 
 .content {
-    margin: 25px;
-    padding: 15px;
-    padding-bottom: 25px;
-    border: dotted 2px #fff;
-}
-
-.content p {
-    color: #011c29;
-    font-family: 'Courier New', Courier, monospace;
-    padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 25px;
 }
 
 .janela {
-    width: 90%px;
-    height: auto;
-    background-color: #f5f5f5;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
-    position: relative;
-    margin: 50px auto;
-  }
-  
-  .janela-barra {
-    height: 30px;
-    background-color: #eee;
-    border-bottom: 1px solid #ccc;
-    padding: 5px;
-    margin-top: 10px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    display: flex;
-    justify-content: flex-start;
-  }
+  width: 45%;
+  height: auto;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+  position: relative;
+  margin: 10px;
+}
 
-  .janela-barra h3 {
-    font-family: 'Courier New', Courier, monospace;
-    margin-top: -3px;
-    position: relative;
-  }
-  
-  .janela-botao {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    margin-right: 5px;
-    display: inline-block;
-  }
-  
-  .janela-botao-vermelho {
-    background-color: #ff3b30;
-  }
-  
-  .janela-botao-amarelo {
-    background-color: #ffcc00;
-  }
-  
-  .janela-botao-verde {
-    background-color: #4cd964;
-  }
-  
-  .janela-corpo {
-    padding: 10px;
-    height: 100%;
-  }
-  
+.janela-total {
+  width: 91%;
+  height: auto;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+  position: relative;
+  margin: 10px;
+}
 
-.profile {
-    width: 150px;
-    border-radius: 50%;
-    border: solid 1px #fff;
-    box-shadow: #011c29 1px 3px 20px;
+
+.janela-barra {
+  height: 30px;
+  background-color: #eee;
+  border-bottom: 1px solid #ccc;
+  padding: 5px;
+  margin-top: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.janela-barra h3 {
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: -3px;
+  position: relative;
+}
+
+.janela-botao {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.janela-botao-vermelho {
+  background-color: #ff3b30;
+}
+
+.janela-botao-amarelo {
+  background-color: #ffcc00;
+}
+
+.janela-botao-verde {
+  background-color: #4cd964;
+}
+
+.janela-corpo {
+  padding: 10px;
+  height: 100%;
+}
+
+.event-image {
+  width: auto;
+  height: 300px;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
 
 .button {
-    text-decoration: none;
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: #056a99;
-    padding: 10px;
-    margin: 10px;
-    border: #fff solid 0.5px;
-    box-shadow: #011c29 2px 1px 0;
-    transition: all 1s;
-    display: inline-block;
-    width: 200px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #056a99;
+  padding: 10px;
+  margin: 10px;
+  border: #fff solid 0.5px;
+  box-shadow: #011c29 2px 1px 0;
+  transition: all 1s;
+  display: inline-block;
+  width: 200px;
+}
+
+.disabled-button {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: gray;
+  padding: 10px;
+  margin: 10px;
+  border: #fff solid 0.5px;
+  box-shadow: #011c29 2px 1px 0;
+  transition: all 1s;
+  display: inline-block;
+  width: 200px;
+  pointer-events: none;
+  color: white;
+  text-decoration: none;
 }
 
 .button:hover {
-    box-shadow: #011c29 15px 10px 0;
+  box-shadow: #011c29 15px 10px 0;
+}
+
+@media (max-width: 768px) {
+  .janela {
+      width: 90%;
+  }
 }
