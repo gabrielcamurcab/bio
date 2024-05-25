@@ -5,17 +5,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.scss">
   <link rel="stylesheet" href="css/style.css">
-
   <title>Gabriel Camurça - Desenvolvedor Back-end</title>
 </head>
 
 <body>
   <div class="header-content">
-    <img src="img/eu.jpg" class="profile"><br>
-    <h1 class="title">Gabriel Camurça</h1>
-    <h2 class="subtitle">Desenvolvedor Web - Back-end</h2>
+      <div id="loader">
+        <div class="loader-circle"></div>
+      </div>
+      <img id="profile-photo" src="img/eu.jpg" alt="Profile Photo" class="profile"><br>
+      <h1 id="profile-title" class="title"></h1>
+      <h2 id="profile-subtitle" class="subtitle"></h2>
   </div>
   <div class="content">
     <div class="janela">
@@ -26,9 +27,9 @@
         <h3>Próximo evento</h3>
       </div>
       <div class="janela-corpo">
-        <img src="img/ghfortal-junho-24.png" class="event-image" alt="Próximo evento">
+        <img src="img/em-breve.gif" class="event-image" id="event-image" alt="Próximo evento">
         <br>
-        <a target="_blank" class="button" href="https://www.meetup.com/gittogether-brasil/events/301238483">Adquirir ingresso</a>
+        <a id="event-button" target="_blank" class="disabled-button" href="">Adquirir ingresso</a>
       </div>
     </div>
     <div class="janela">
@@ -39,13 +40,8 @@
         <h3>Redes sociais</h3>
       </div>
       <div class="janela-corpo">
-        <div class="main">
-          <a class="button" href="https://github.com/gabrielcamurcab">Github</a><br>
-          <a class="button" href="https://instagram.com/ocamurca_">Instagram</a><br>
-          <a class="button" href="https://www.linkedin.com/in/gabriel-camur%C3%A7a/">Linkedin</a><br>
-          <a class="button" href="https://ocamurca.com">Currículo</a><br>
-          <a class="button" href="https://blog.ocamurca.com">Blog</a><br>
-          <a class="button" href="mailto:projetosdocamurca@gmail.com">E-mail</a><br>
+        <div class="main" id="social-links">
+
         </div>
       </div>
     </div>
@@ -56,10 +52,8 @@
         <div class="janela-botao janela-botao-verde"></div>
         <h3>Minibio</h3>
       </div>
-      <div class="janela-corpo">
-        <p>🇧🇷Gabriel Camurça é desenvolvedor Back-end com 3 anos de experiência em projetos web. Trabalhou em um cartório desenvolvendo soluções personalizadas e, atualmente, na BR Tech, criando plataformas web sob demanda. Fortes habilidades em bancos de dados PHP, JavaScript e SQL. Além disso, é Técnico em Redes e SysAdmin Linux, com expertise em Cloud AWS e Cybersegurança. Amante da literatura, Gabriel encontrou paz na tecnologia em suas palestras.</p>
-        <br>
-        <p>🇺🇲Gabriel Camurça is a Back-end developer with 3 years of experience in web projects. He worked at a notary's office developing personalized solutions and, currently, at BR Tech, creating on-demand web platforms. Strong skills in PHP, JavaScript and SQL databases. Additionally, he is a Network Technician and Linux SysAdmin, with expertise in AWS Cloud and Cybersecurity. A lover of literature, Gabriel found peace in technology in his lectures.</p>
+      <div class="janela-corpo" id="minibio-content">
+        
       </div>
     </div>
   </div>
@@ -75,6 +69,5 @@
 
   gtag('config', 'G-SPZ50BJKDH');
 </script>
-
-
+<script src="js/main.js"></script>
 </html>
