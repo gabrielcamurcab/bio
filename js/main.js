@@ -2,7 +2,6 @@ const API_URL = "https://bioapi.ocamurca.com";
 
 async function fetchData(endpoint) {
     const response = await fetch(`${API_URL}${endpoint}`);
-    console.log(response);
     if (!response.ok) {
         throw new Error('Network response was not ok');
     }

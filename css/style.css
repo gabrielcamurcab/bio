@@ -35,7 +35,6 @@ html {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 25px;
 }
 
 .janela {
@@ -102,6 +101,7 @@ html {
 .janela-corpo {
   padding: 10px;
   height: 100%;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .event-image {
